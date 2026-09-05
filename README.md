@@ -53,6 +53,10 @@ credit_risk/
 
 Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Jupyter Notebook, and SQL-oriented data preparation.
 
+## Related project
+
+See [`credit_score/`](credit_score/) for a credit-scoring and UPI usage prediction project using XGBoost, WOE transformation, Borderline-SMOTE, and scorecard modeling.
+
 ## Data and privacy
 
 The original loan-level data, trained model files, and internal reports are intentionally excluded from this public portfolio repository. They may contain confidential customer, financial, or organizational information. To reproduce the workflow, provide an appropriately anonymized dataset with a binary `IS_NPL` target and update the input paths in the notebooks.
