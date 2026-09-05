@@ -1,0 +1,27 @@
+# Sensitive or locally generated data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Trained models and serialized objects
+*.joblib
+*.pkl
+*.pickle
+*.json
+
+# Generated reports and local outputs
+*.html
+*.log
+REPORT.md
+solution.md
+data_spliting/
+feature_selection_output/selected_features_xgboost.csv
+feature_selection_output/selected_features_xgboost_cleaned.csv
+feature_selection_output/xgb_npl_model.json
+feature_selection_output/xgb_npl_model_calibrated.joblib
+
+# Local notebook/runtime files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
