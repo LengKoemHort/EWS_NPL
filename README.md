@@ -5,7 +5,6 @@ An end-to-end credit-risk modeling project for identifying loans that may become
 ## Project highlights
 
 - Standardized a loan portfolio dataset containing more than 217,000 records.
-- Reduced in-memory dataset usage by approximately 86% through data-type optimization.
 - Investigated missing values, duplicate fields, currency normalization, and potential outliers.
 - Detected and excluded target leakage before model training.
 - Selected predictive features using information value (IV) and WOE-based analysis.
@@ -45,7 +44,6 @@ credit_risk/
 ├── cross_validate.ipynb           # Train/test split preparation
 ├── feature_selection_output/
 │   └── xgboost.ipynb              # XGBoost training and evaluation
-├── solution.md                    # Production-readiness action plan
 └── README.md
 ```
 
